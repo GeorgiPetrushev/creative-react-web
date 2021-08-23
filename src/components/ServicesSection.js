@@ -13,28 +13,28 @@ const ServicesSection = () =>{
                 <div className="cards">
                     <div className="card">
                         <div className="icon">
-                            <img src={clock}></img>
+                            <img src={clock} alt="clock"></img>
                             <h3>Efficient</h3>
                         </div>
                         <p>Ullamco consectetur ipsum enim culpa.</p>
                     </div>
                     <div className="card">
                         <div className="icon">
-                            <img src={money}></img>
+                            <img src={money} alt='money'></img>
                             <h3>Money</h3>
                         </div>
                         <p>Cupidatat irure cillum eiusmod occaecat nulla aute et eiusmod eiusmod ullamco.</p>
                     </div>
                     <div className="card">
                         <div className="icon">
-                            <img src={teamwork}></img>
+                            <img src={teamwork} alt='teamwork'></img>
                             <h3>Teamwork</h3>
                         </div>
                         <p>Velit magna aliquip elit mollit exercitation consequat magna ipsum.</p>
                     </div>
                     <div className="card">
                         <div className="icon">
-                            <img src={diaphragm}></img>
+                            <img src={diaphragm} alt='diaphragm'></img>
                             <h3>Diaphragm</h3>
                         </div>
                         <p>Id dolor ex qui voluptate anim.</p>

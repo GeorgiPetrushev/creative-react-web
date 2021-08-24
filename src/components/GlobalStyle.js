@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 body{
+    font-family: 'Inter', sans-serif;
     background-color: #1b1b1b;
 }
 
@@ -19,6 +20,7 @@ button{
     background: transparent;
     color: white;
     transition: all 0.5s ease;
+    font-family: 'Inter', sans-serif;
     &:hover{
         background-color: #23d997;
         color: white;
@@ -33,6 +35,7 @@ button{
     }
     h4{
         font-weight: bold;
+        font-size: 2rem;
         
     }
     a{

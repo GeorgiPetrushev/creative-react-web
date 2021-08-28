@@ -18,21 +18,21 @@ const ServicesSection = () =>{
                             <img src={clock} alt="clock"></img>
                             <h3>Efficient</h3>
                         </div>
-                        <p>Ullamco enim.</p>
+                        <p>Ullages enif.</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={money} alt='money'></img>
                             <h3>Money</h3>
                         </div>
-                        <p>Cupidatat  ullamco.</p>
+                        <p>Cupidity  ullage.</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt='teamwork'></img>
                             <h3>Teamwork</h3>
                         </div>
-                        <p>Velit magna  ipsum.</p>
+                        <p>Veldt magna  ipsum.</p>
                     </Card>
                     <Card>
                         <div className="icon">

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <StyleNav>
-            <h1><a id='logo' to='/'>Capture</a></h1>
+            <h1><Link id='logo' to='/'>Capture</Link></h1>
             <ul>
                 <li> 
                     <Link to='/'>1. About Us</Link>

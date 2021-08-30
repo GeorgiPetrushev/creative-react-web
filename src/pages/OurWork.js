@@ -14,21 +14,21 @@ const OurWork = () =>{
                 <Movie>
                     <h2>The Athlete</h2>
                     <div className='line'></div>
-                    <Link>
+                    <Link to="/work/the-athlete">
                         <img src={athlete} alt='athlete'></img>
                     </Link>
                 </Movie>
                 <Movie>
                     <h2>The Athlete</h2>
                     <div className='line'></div>
-                    <Link>
+                    <Link to="/work/the-racer">
                     <img src={theracer} alt='athlete'></img>
                     </Link>
                 </Movie>
                 <Movie>
                     <h2>The Athlete</h2>
                     <div className='line'></div>
-                    <Link>
+                    <Link to="/work/good-times">
                         <img src={goodtimes} alt='athlete'></img>
                     </Link>
                 </Movie>

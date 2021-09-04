@@ -8,7 +8,7 @@ export default function AboutSection() {
 
     const titleAnimation = {
         hidden: {opacity: 0, x:50},
-        transition: {duration:1.5},
+        transition: {delay: 2},
         show: {opacity: 1, x:0 ,transition: {duration:0.75}}
     }
     const container = {

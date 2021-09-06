@@ -1,46 +1,48 @@
 import React from 'react';
 import styled from 'styled-components';
 import { About } from '../style';
+import Toggle from './Toggle';
+import { AnimateSharedLayout } from 'framer-motion';
 
 const FaqSection = () => {
+
     return(
         <Faq>
             <h2>Any questions?<span>FAQ</span></h2>
-            <div className="question">
-                <h4>How Do I Start?</h4>
-                <div className='answer'>
-                    <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
-                    <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
-                </div>
-                <div className='faq-line'></div>
-            </div>            
-            <div className="question">
-                <h4>Different Payment Methods?</h4>
-                <div className='answer'>
-                    <p>Enim dolore consequat veniam minim labore excepteur laboris exercitation aute enim Lorem nulla.</p>
-                    <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
-                    <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
-                </div>
-                <div className='faq-line'></div>
-            </div>
-            <div className="question">
-                <h4>How Do I Cancel?</h4>
-                <div className='answer'>
-                    <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
-                    <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
-                    <p>Occaecat excepteur esse proident esse non consequat.</p>
-                    <p>Nisi labore enim do consectetur esse exercitation reprehenderit ullamco duis dolor consectetur excepteur.</p>
-                </div>
-                <div className='faq-line'></div>
-            </div>
-            <div className="question">
-                <h4>How Do I Stop?</h4>
-                <div className='answer'>
-                    <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
-                    <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
-                </div>
-                <div className='faq-line'></div>
-            </div>
+                <AnimateSharedLayout>
+                    <Toggle title="How Do I Start?">
+                        
+                            <div className='answer'>
+                                <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
+                                <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
+                            </div>
+                        
+                    </Toggle>
+                    <Toggle title="Different Payment Methods?">
+                        
+                            <div className='answer'>
+                                <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
+                                <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
+                            </div>
+                        
+                    </Toggle>
+                    <Toggle title="How Do I Cancel?">
+                        
+                            <div className='answer'>
+                                <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
+                                <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
+                            </div>
+                        
+                    </Toggle>
+                    <Toggle title="How Do I Stop?">
+                        
+                            <div className='answer'>
+                                <p>Dolor ea nostrud exercitation sunt sit esse. Fugiat ut et minim reprehenderit incididunt sit id. Dolore sit et eu laborum laborum elit culpa. Minim elit enim mollit non non ex elit non aliqua anim. Exercitation amet aliqua sit nulla ea.</p>
+                                <p>Consectetur fugiat eu nulla non ut consectetur fugiat minim proident.</p>
+                            </div>
+                        
+                    </Toggle>
+                </AnimateSharedLayout>
         </Faq>
 
     );
@@ -54,6 +56,10 @@ const Faq = styled(About)`
     h2{
         padding-bottom: 2rem;
         font-weight: lighter;
+    }
+    h4{
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
     .faq-line{
         background: #cccccc;
@@ -70,6 +76,7 @@ const Faq = styled(About)`
             padding: 1rem 0rem;
         }
     }
+
 `;
 
 export default FaqSection;

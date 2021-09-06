@@ -4,6 +4,7 @@ import home1 from '../img/home1.png';
 import { About,Description,Hide,Image } from '../style';
 import { motion } from 'framer-motion';
 import { titleAnimation,fade,photoAnimation } from '../animation';
+import Wave from './Wave';
 
 export default function AboutSection() {
 
@@ -27,6 +28,7 @@ export default function AboutSection() {
             <Image>
                 <motion.img variants={photoAnimation} alt='dude whit camera' src={home1}></motion.img>
             </Image>
+            <Wave />
         </About>
     )
 }

@@ -11,7 +11,7 @@ const Toggle = ({children,title}) => {
             {toggle ? children : ''}
             <div className='faq-line'></div>
         </motion.div>
-    );
+    ); 
 
 }
 

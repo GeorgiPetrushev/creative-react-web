@@ -10,8 +10,8 @@ import { Switch, Route,useLocation  } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 export default function App() {
+  
   const location = useLocation();
-  console.log(location.pathname)
 
   return (
     <div className="App">

@@ -7,8 +7,9 @@ import theracer from '../img/theracer-small.png';
 import goodtimes from '../img/goodtimes-small.png';
 // Add Animation
 import { motion } from 'framer-motion';
-import {  sliderContainer, slider, pageAnimation, fade, photoAnimation, lineAnimation } from '../animation';
-import {useScroll} from '../components/useScroll';
+import { sliderContainer, slider, pageAnimation, fade, photoAnimation, lineAnimation } from '../animation';
+import { useScroll } from '../components/useScroll';
+import ScrollTop from '../components/ScrollTop';
 
 
 const OurWork = () =>{
@@ -47,6 +48,7 @@ const OurWork = () =>{
                         <img src={goodtimes} alt='athlete'></img>
                     </Link>
                 </Movie>
+                <ScrollTop />
             </Work>    
     )
 }

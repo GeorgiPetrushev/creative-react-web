@@ -10,8 +10,14 @@ import { Switch, Route,useLocation  } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 export default function App() {
-  
+
   const location = useLocation();
+
+  window.onload = function() {
+    setTimeout(function(){
+      window.scrollTo(0,0);
+    },1);
+  };
 
   return (
     <div className="App">
